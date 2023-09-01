@@ -1,0 +1,97 @@
+.supportSection {
+    position: relative;
+    width: 100%;
+    background-color: black;
+}
+
+.supportBackgroundImg {
+    width: 100%;
+
+}
+
+.supportContent {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fece00;
+
+}
+
+.supportPixelImg {
+    width: 450px;
+}
+
+.supporth2 {
+    position: absolute;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    background-color: white;
+    border: 6px solid darkgoldenrod;
+    padding: 10px;
+    color: darkgoldenrod;
+    border-radius: 8px;
+    top: 25%;
+    font-size: 35px;
+    text-align: center;
+}
+
+
+.supportPatreon {
+    width: 180px;
+    position: absolute;
+    bottom: 25%;
+    left: 10%;
+    filter: invert(57%) sepia(2%) saturate(18%) hue-rotate(319deg) brightness(90%) contrast(88%);
+}
+
+.supportPaypal {
+    width: 220px;
+    position: absolute;
+    bottom: 22%;
+    right: 10%;
+    filter: invert(57%) sepia(2%) saturate(18%) hue-rotate(319deg) brightness(90%) contrast(88%);
+}
+
+.supportPatreon:hover {
+    filter: invert(48%) sepia(100%) saturate(385%) hue-rotate(3deg) brightness(93%) contrast(87%);
+
+
+}
+
+.supportPaypal:hover {
+    filter: invert(48%) sepia(100%) saturate(385%) hue-rotate(3deg) brightness(93%) contrast(87%);
+
+
+}
+
+
+@media (min-width: 300px) and (max-width: 1200px) {
+    .supportPixelImg {
+        width: 300px;
+    }
+
+    .supporth2 {
+        font-size: 16px;
+        text-align: center;
+        padding: 5px;
+        top: 10%;
+        border: 3px solid darkgoldenrod;
+    }
+
+    .supportH2 {
+        font-size: 16px;
+    }
+
+
+    .supportPatreon {
+        width: 50px;
+
+    }
+
+    .supportPaypal {
+        width: 60px;
+    }
+
+
+
+}

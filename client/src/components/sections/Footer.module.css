@@ -1,0 +1,161 @@
+.footerContainer {
+  width: 100%;
+  background-color: black;
+  position: relative;
+  margin-top: none;
+}
+
+.newsletterWrapper {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  flex-wrap: wrap-reverse;
+  width: 100%;
+}
+
+.hrDiv {
+  display: flex;
+  justify-content: center;
+  margin: 0 50px;
+}
+
+.footerHr {
+  width: 100%;
+  color: white;
+  margin-top: 50px;
+}
+
+.flagPin {
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+}
+
+.flagPin img {
+  width: 40px;
+  height: 40px;
+  margin-left: 80px;
+  margin-top: 5px;
+}
+
+.h3footer {
+  width: 30%;
+  height: 60px;
+  color: white;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+.footer_h3 {
+  font-size: 0.7em;
+}
+
+/* .direktKontakt {
+  color: white;
+  width: 100%;
+  position: relative;
+  top: 100px;
+  left: 10%;
+}
+
+.direktParagraph {
+  font-size: 20px;
+}
+
+.mail {
+  color: #fece00;
+  font-weight: bold;
+  margin-top: 30px;
+  font-size: 20px;
+} */
+
+.socialIcons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+
+.socialIcons img {
+  filter: invert(89%) sepia(0%) saturate(10%) hue-rotate(259deg) brightness(98%)
+    contrast(89%);
+  width: 60px;
+  height: 60px;
+  margin: 40px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.socialIcons img:hover {
+  filter: invert(72%) sepia(66%) saturate(708%) hue-rotate(359deg)
+    brightness(102%) contrast(106%);
+  transform: translateY(-5px);
+  width: 60px;
+  height: 60px;
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+  color: white;
+  width: 100%;
+  padding: 20px;
+}
+
+.copyright p {
+  font-size: 1.4rem;
+}
+
+.palmera {
+  margin-left: 50px;
+  font-style: italic;
+}
+
+.heart {
+  margin-left: 30px;
+}
+
+@media (max-width: 1000px) {
+  .footerContainer {
+    width: 100%;
+  }
+
+  .socialIcons img {
+    display: none;
+  }
+
+  .copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .copyright p {
+    font-size: x-small;
+  }
+  .heart {
+    margin-left: 10px;
+  }
+  .palmera {
+    margin-left: 0px;
+    font-style: italic;
+  }
+
+  .footer_h3 {
+    font-size: 0.7em;
+  }
+
+  /* .direktKontakt {
+    width: 100%;
+    position: relative;
+    top: 40px;
+    left: 10%;
+  }
+
+
+  .mail {
+    font-size: 15px;
+    margin-top: 2px;
+    padding-bottom: 20px;
+    margin-left: 40px;
+  } */
+}
